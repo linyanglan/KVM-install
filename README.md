@@ -70,47 +70,47 @@ Usage:
 
 ### centos 6:
 ```
-bash <(wget --no-check-certificate -qO- 'https://git.io/install.sh') -c 6.9 -v 64 -a --mirror 'http://mirror.centos.org/centos'
+bash <(wget --no-check-certificate -qO- 'https://git.io/InstallNET.sh') -c 6.9 -v 64 -a --mirror 'http://mirror.centos.org/centos'
 ```
 ### debian 7:
 ```
-bash <(wget --no-check-certificate -qO- 'https://git.io/install.sh') -d 7 -v 64 -a
+bash <(wget --no-check-certificate -qO- 'https://git.io/InstallNET.sh') -d 7 -v 64 -a
 ```
 ### debian 8:
 ```
-bash <(wget --no-check-certificate -qO- 'https://git.io/install.sh') -d 8 -v 64 -a
+bash <(wget --no-check-certificate -qO- 'https://git.io/InstallNET.sh') -d 8 -v 64 -a
 ```
 ### debian 9:
 ```
-bash <(wget --no-check-certificate -qO- 'https://git.io/install.sh) -d 9 -v 64 -a
+bash <(wget --no-check-certificate -qO- 'https://git.io/InstallNET.sh) -d 9 -v 64 -a
 ```
 ### debian 10:
 ```
-bash <(wget --no-check-certificate -qO- 'https://git.io/install.sh') -d 10 -v 64 -a
+bash <(wget --no-check-certificate -qO- 'https://git.io/InstallNET.sh') -d 10 -v 64 -a
 ```
 ### debian 11:
 ```
-bash <(wget --no-check-certificate -qO- 'https://git.io/install.sh') -d 11 -v 64 -a
+bash <(wget --no-check-certificate -qO- 'https://git.io/InstallNET.sh') -d 11 -v 64 -a
 ```
 ### ubuntu 14.04:
 ```
-bash <(wget --no-check-certificate -qO- 'https://git.io/install.sh') -u 14.04 -v 64 -a
+bash <(wget --no-check-certificate -qO- 'https://git.io/InstallNET.sh') -u 14.04 -v 64 -a
 ```
 ### ubuntu 16.04:
 ```
-bash <(wget --no-check-certificate -qO- 'https://git.io/install.sh') -u 16.04 -v 64 -a
+bash <(wget --no-check-certificate -qO- 'https://git.io/InstallNET.sh') -u 16.04 -v 64 -a
 ```
 ### ubuntu 18.04:
 ```
-bash <(wget --no-check-certificate -qO- 'https://git.io/install.sh') -u 18.04 -v 64 -a
+bash <(wget --no-check-certificate -qO- 'https://git.io/InstallNET.sh') -u 18.04 -v 64 -a
 ```
 ### ubuntu 20.04:
 ```
-bash <(wget --no-check-certificate -qO- 'https://git.io/install.sh') -u 20.04 -v 64 -a
+bash <(wget --no-check-certificate -qO- 'https://git.io/InstallNET.sh') -u 20.04 -v 64 -a
 ```
 ### 甲骨文ARM:
 ```
-bash <(wget --no-check-certificate -qO- 'https://git.io/install.sh') -d 10 -v arm64 -a
+bash <(wget --no-check-certificate -qO- 'https://git.io/InstallNET.sh') -d 10 -v arm64 -a
 ```
 ### CentOS系统用萌咖dd脚本出现Not Found grub.的解决方法
 ```
