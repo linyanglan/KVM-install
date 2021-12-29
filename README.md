@@ -70,47 +70,47 @@ Usage:
 
 ### centos 6:
 ```
-bash <(wget --no-check-certificate -qO- 'https://git.io/JeiRm') -c 6.9 -v 64 -a --mirror 'http://mirror.centos.org/centos'
+bash <(wget --no-check-certificate -qO- 'https://git.io/install.sh') -c 6.9 -v 64 -a --mirror 'http://mirror.centos.org/centos'
 ```
 ### debian 7:
 ```
-bash <(wget --no-check-certificate -qO- 'https://git.io/JeiRm') -d 7 -v 64 -a
+bash <(wget --no-check-certificate -qO- 'https://git.io/install.sh') -d 7 -v 64 -a
 ```
 ### debian 8:
 ```
-bash <(wget --no-check-certificate -qO- 'https://git.io/JeiRm') -d 8 -v 64 -a
+bash <(wget --no-check-certificate -qO- 'https://git.io/install.sh') -d 8 -v 64 -a
 ```
 ### debian 9:
 ```
-bash <(wget --no-check-certificate -qO- 'https://git.io/JeiRm') -d 9 -v 64 -a
+bash <(wget --no-check-certificate -qO- 'https://git.io/install.sh) -d 9 -v 64 -a
 ```
 ### debian 10:
 ```
-bash <(wget --no-check-certificate -qO- 'https://git.io/JeiRm') -d 10 -v 64 -a
+bash <(wget --no-check-certificate -qO- 'https://git.io/install.sh') -d 10 -v 64 -a
 ```
 ### debian 11:
 ```
-bash <(wget --no-check-certificate -qO- 'https://git.io/JeiRm') -d 11 -v 64 -a
+bash <(wget --no-check-certificate -qO- 'https://git.io/install.sh') -d 11 -v 64 -a
 ```
 ### ubuntu 14.04:
 ```
-bash <(wget --no-check-certificate -qO- 'https://git.io/JeiRm') -u 14.04 -v 64 -a
+bash <(wget --no-check-certificate -qO- 'https://git.io/install.sh') -u 14.04 -v 64 -a
 ```
 ### ubuntu 16.04:
 ```
-bash <(wget --no-check-certificate -qO- 'https://git.io/JeiRm') -u 16.04 -v 64 -a
+bash <(wget --no-check-certificate -qO- 'https://git.io/install.sh') -u 16.04 -v 64 -a
 ```
 ### ubuntu 18.04:
 ```
-bash <(wget --no-check-certificate -qO- 'https://git.io/JeiRm') -u 18.04 -v 64 -a
+bash <(wget --no-check-certificate -qO- 'https://git.io/install.sh') -u 18.04 -v 64 -a
 ```
 ### ubuntu 20.04:
 ```
-bash <(wget --no-check-certificate -qO- 'https://git.io/JeiRm') -u 20.04 -v 64 -a
+bash <(wget --no-check-certificate -qO- 'https://git.io/install.sh') -u 20.04 -v 64 -a
 ```
 ### 甲骨文ARM:
 ```
-bash <(wget --no-check-certificate -qO- 'https://git.io/JeiRm') -d 10 -v arm64 -a
+bash <(wget --no-check-certificate -qO- 'https://git.io/install.sh') -d 10 -v arm64 -a
 ```
 ### CentOS系统用萌咖dd脚本出现Not Found grub.的解决方法
 ```
@@ -120,19 +120,19 @@ grub2-mkconfig -o /boot/grub2/grub.cfg
 ### VPS或者独立服务器有多个网卡.
 ##### 例:安装debian9，网卡名称enp0s5和enp0s6,enp0s6可用.
 ```
-bash <(wget --no-check-certificate -qO- 'https://git.io/JeiRm') -d 9 -v 64 -a -i enp0s6
+bash <(wget --no-check-certificate -qO- 'https://git.io/install.sh') -d 9 -v 64 -a -i enp0s6
 ```
 ### VPS安装debian9并且自定义源.
 ```
-bash <(wget --no-check-certificate -qO- 'https://git.io/JeiRm') -d 9 -v 64 -a --mirror 'http://archive.ubuntu.com/ubuntu'
+bash <(wget --no-check-certificate -qO- 'https://git.io/install.sh') -d 9 -v 64 -a --mirror 'http://archive.ubuntu.com/ubuntu'
 ```
 ### VPS安装debian9无法识别IP地址并且自定义源.
 ```
-bash <(wget --no-check-certificate -qO- 'https://git.io/JeiRm') -d 9 -v 64 -a --ip-addr x.x.x.x --ip-gate x.x.x.x --ip-mask x.x.x.x  --mirror 'http://archive.ubuntu.com/ubuntu'
+bash <(wget --no-check-certificate -qO- 'https://git.io/install.sh') -d 9 -v 64 -a --ip-addr x.x.x.x --ip-gate x.x.x.x --ip-mask x.x.x.x  --mirror 'http://archive.ubuntu.com/ubuntu'
 ```
 ### VPS DD方式安装windwos 7.
 ```
-bash <(wget --no-check-certificate -qO- 'https://git.io/JeiRm') --ip-addr x.x.x.x --ip-gate x.x.x.x --ip-mask x.x.x.x -dd 'https://moeclub.org/get-win7embx86-auto'
+bash <(wget --no-check-certificate -qO- 'https://git.io/install.sh') --ip-addr x.x.x.x --ip-gate x.x.x.x --ip-mask x.x.x.x -dd 'https://moeclub.org/get-win7embx86-auto'
 ```
 
 
